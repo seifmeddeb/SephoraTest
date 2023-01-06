@@ -13,8 +13,6 @@
 		30FD6DA729655F9F006F6266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FD6DA629655F9F006F6266 /* Assets.xcassets */; };
 		30FD6DAA29655F9F006F6266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FD6DA829655F9F006F6266 /* LaunchScreen.storyboard */; };
 		30FD6DB529655FA0006F6266 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6DB429655FA0006F6266 /* NetworkManagerTests.swift */; };
-		30FD6DBF29655FA0006F6266 /* sephora1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6DBE29655FA0006F6266 /* sephora1UITests.swift */; };
-		30FD6DC129655FA0006F6266 /* sephora1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6DC029655FA0006F6266 /* sephora1UITestsLaunchTests.swift */; };
 		30FD6DD029656344006F6266 /* PLPCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6DCF29656344006F6266 /* PLPCoordinator.swift */; };
 		30FD6DD2296591BC006F6266 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6DD1296591BC006F6266 /* NetworkManager.swift */; };
 		30FD6DD42965B6C7006F6266 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FD6DD32965B6C7006F6266 /* Product.swift */; };
@@ -38,13 +36,6 @@
 			remoteGlobalIDString = 30FD6D9929655F9E006F6266;
 			remoteInfo = sephora1;
 		};
-		30FD6DBB29655FA0006F6266 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 30FD6D9229655F9E006F6266 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 30FD6D9929655F9E006F6266;
-			remoteInfo = sephora1;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -57,9 +48,6 @@
 		30FD6DAB29655F9F006F6266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FD6DB029655FA0006F6266 /* sephora1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sephora1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FD6DB429655FA0006F6266 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
-		30FD6DBA29655FA0006F6266 /* sephora1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sephora1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30FD6DBE29655FA0006F6266 /* sephora1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sephora1UITests.swift; sourceTree = "<group>"; };
-		30FD6DC029655FA0006F6266 /* sephora1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sephora1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30FD6DCF29656344006F6266 /* PLPCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLPCoordinator.swift; sourceTree = "<group>"; };
 		30FD6DD1296591BC006F6266 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		30FD6DD32965B6C7006F6266 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -90,13 +78,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30FD6DB729655FA0006F6266 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -105,7 +86,6 @@
 			children = (
 				30FD6D9C29655F9E006F6266 /* sephora1 */,
 				30FD6DB329655FA0006F6266 /* sephora1Tests */,
-				30FD6DBD29655FA0006F6266 /* sephora1UITests */,
 				30FD6D9B29655F9E006F6266 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,7 +95,6 @@
 			children = (
 				30FD6D9A29655F9E006F6266 /* sephora1.app */,
 				30FD6DB029655FA0006F6266 /* sephora1Tests.xctest */,
-				30FD6DBA29655FA0006F6266 /* sephora1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,15 +125,6 @@
 				30FD6DD52965B7EC006F6266 /* MockUrlProtocol.swift */,
 			);
 			path = sephora1Tests;
-			sourceTree = "<group>";
-		};
-		30FD6DBD29655FA0006F6266 /* sephora1UITests */ = {
-			isa = PBXGroup;
-			children = (
-				30FD6DBE29655FA0006F6266 /* sephora1UITests.swift */,
-				30FD6DC029655FA0006F6266 /* sephora1UITestsLaunchTests.swift */,
-			);
-			path = sephora1UITests;
 			sourceTree = "<group>";
 		};
 		30FD6DEB29673F80006F6266 /* Scenes */ = {
@@ -249,24 +219,6 @@
 			productReference = 30FD6DB029655FA0006F6266 /* sephora1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30FD6DB929655FA0006F6266 /* sephora1UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30FD6DCA29655FA0006F6266 /* Build configuration list for PBXNativeTarget "sephora1UITests" */;
-			buildPhases = (
-				30FD6DB629655FA0006F6266 /* Sources */,
-				30FD6DB729655FA0006F6266 /* Frameworks */,
-				30FD6DB829655FA0006F6266 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				30FD6DBC29655FA0006F6266 /* PBXTargetDependency */,
-			);
-			name = sephora1UITests;
-			productName = sephora1UITests;
-			productReference = 30FD6DBA29655FA0006F6266 /* sephora1UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -281,10 +233,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					30FD6DAF29655FA0006F6266 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 30FD6D9929655F9E006F6266;
-					};
-					30FD6DB929655FA0006F6266 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 30FD6D9929655F9E006F6266;
 					};
@@ -305,7 +253,6 @@
 			targets = (
 				30FD6D9929655F9E006F6266 /* sephora1 */,
 				30FD6DAF29655FA0006F6266 /* sephora1Tests */,
-				30FD6DB929655FA0006F6266 /* sephora1UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -321,13 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		30FD6DAE29655FA0006F6266 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30FD6DB829655FA0006F6266 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,15 +308,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30FD6DB629655FA0006F6266 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30FD6DC129655FA0006F6266 /* sephora1UITestsLaunchTests.swift in Sources */,
-				30FD6DBF29655FA0006F6266 /* sephora1UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -384,11 +315,6 @@
 			isa = PBXTargetDependency;
 			target = 30FD6D9929655F9E006F6266 /* sephora1 */;
 			targetProxy = 30FD6DB129655FA0006F6266 /* PBXContainerItemProxy */;
-		};
-		30FD6DBC29655FA0006F6266 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 30FD6D9929655F9E006F6266 /* sephora1 */;
-			targetProxy = 30FD6DBB29655FA0006F6266 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -608,40 +534,6 @@
 			};
 			name = Release;
 		};
-		30FD6DCB29655FA0006F6266 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.sephora1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = sephora1;
-			};
-			name = Debug;
-		};
-		30FD6DCC29655FA0006F6266 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.sephora1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = sephora1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -668,15 +560,6 @@
 			buildConfigurations = (
 				30FD6DC829655FA0006F6266 /* Debug */,
 				30FD6DC929655FA0006F6266 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		30FD6DCA29655FA0006F6266 /* Build configuration list for PBXNativeTarget "sephora1UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				30FD6DCB29655FA0006F6266 /* Debug */,
-				30FD6DCC29655FA0006F6266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -21,7 +21,7 @@ final class PLPViewModelTests: XCTestCase {
         sut = nil
     }
 
-    func test_fetch_product_list() throws {
+    func test_fetch_product_list_is_called() throws {
         // When start fetch
         _ = sut?.fetchProducts()
         
